@@ -1,0 +1,97 @@
+# ========== Unity ==========
+[Ll]ibrary/
+[Tt]emp/
+tmp/             # <-- Added entire tmp folder
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+UserSettings/
+
+# Crash Reports
+[Ss]ys[Tt]em/
+[Mm]emoryCaptures/
+
+# Unity Cache
+UnityCache/
+Cache/
+
+# Asset Store tools
+[Aa]ssets/AssetStoreTools*
+
+# Plastic SCM
+.plastic/
+
+# Auto-generated VS/MonoDevelop files
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp       # <-- Already included, temp files
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+
+# Rider IDE
+.idea/
+*.sln.iml
+
+# Visual Studio Code
+.vscode/
+
+# ========== OS Files ==========
+# Windows
+Thumbs.db
+desktop.ini
+
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Linux
+*~
+
+# ========== Logs & Temp ==========
+*.log
+*.mdb
+*.pdb
+
+# ========== Builds ==========
+*.apk
+*.aab
+*.xcodeproj
+*.app
+*.ipa
+*.exe
+*.zip
+
+# ========== Unity-generated ==========
+*.meta.tmp
+
+# ========== Shader Cache ==========
+*.shadergraph.preview
+**/ShaderCache/
+
+# ========== Addressables ==========
+/[Aa]ssets/AddressableAssetsData/*/*.bin*
+
+# ========== TextMesh Pro ==========
+/[Aa]ssets/TextMesh Pro/Resources/*.asset
+
+# ========== Collaborate ==========
+.collab/
+
+# ========== Timeline ==========
+*.playable
+
+# ========== Others ==========
+*.swp
+*.bak
+
+# JetBrains Cache
+jetbrains/
