@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class ReactionCalculator : MonoBehaviour
@@ -8,15 +9,16 @@ public class ReactionCalculator : MonoBehaviour
     {
         IsTimerRunning = true;
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
+    
     public void StopTimer()
     {
         IsTimerRunning = false;
+    }
+
+    public void RestartTimer()
+    {
+        IsTimerRunning = true;
+        TimerText.Time = 0f;
+        TimerText.Text.text = TimerText.Time.ToString();
     }
 }
